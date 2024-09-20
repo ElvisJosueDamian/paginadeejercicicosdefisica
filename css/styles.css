@@ -1,0 +1,136 @@
+/* Estilos para el header y footer */
+
+header, footer {
+    grid-column: 1 / span 3;
+    background-image: url('/image/back.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #008cff;
+    text-align: center;
+    font-family: "Arial", Helvetica, sans-serif;
+    padding: 15px 0;
+}
+
+
+
+
+header h1, footer h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
+/* Estilos generales */
+
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+}
+
+section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #0074d9; /* Color de encabezados destacados */
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos para formularios */
+
+form {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para las imágenes */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilos para los resultados resaltados en rojo */
+span.resultado {
+    color: #e74c3c; /* Color rojo brillante */
+    font-weight: bold;
+}
+/* Estilos para las imágenes en los formularios */
+
+/* Imágenes de MRU */
+img[alt*="mru"] {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px; /* Espacio superior para separar de otros elementos */
+}
+
+/* Imágenes de MRUV */
+img[alt*="mruv"] {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px; /* Espacio superior para separar de otros elementos */
+}
+/* Estilos para la imagen del logo en el encabezado */
+.logo {
+    width: 100px; /* Ajusta el tamaño deseado */
+    height: auto;
+}

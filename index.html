@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Sitio de Física</title>
+</head>
+<body>
+    <header>
+        <h1>Sitio de Física - MRU y MRUV</h1>
+        <img src="image/logo.png" alt="logo" class="logo">
+    </header>
+    <section>
+        <h2>Tema 1</h2>
+        <h2>DISTANCIA</h2>
+        <p>
+            La distancia en MRU se refiere a la longitud total del recorrido de un objeto en movimiento 
+            rectilíneo uniforme. En este tipo de movimiento, la distancia es igual al producto de la velocidad constante y el tiempo. 
+            La fórmula básica para calcular la distancia en MRU es: distancia = velocidad x tiempo. 
+        </p>
+        <img src="image/imagen1.png" alt="imagen 1 mru">
+        
+        <form id="mru-form-1">
+            <section>
+                <h2>Cálculo de Distancia:  - Ejemplo 1</h2>
+                <form id="mru-form-1">
+                    <label for="mru-velocidad-1">Velocidad (m/s):</label>
+                    <input type="number" id="mru-velocidad-1" required>
+                    
+                    <label for="mru-tiempo-1">Tiempo (s):</label>
+                    <input type="number" id="mru-tiempo-1" required>
+                    
+                    <button type="button" id="calcular-mru-1">Calcular</button>
+                    
+                    <p>Resultado : <span class="resultado" id="resultado-mru-1"></span> metros</p>
+                </form>
+            </section>
+            <script src="./js/MRU1.js"></script>
+
+
+        </form>
+    </section>
+
+    <section>
+        <h2>Tema 2</h2>
+        <H2>TIEMPO</H2>
+        <p>
+            El tiempo en MRU es el período durante el cual un objeto se mueve con velocidad constante en una línea recta. 
+            Se mide en unidades de tiempo, como segundos, minutos u horas, y es un factor crucial para calcular la distancia recorrida.
+        </p>
+        <img src="image/imagen2.jpeg" alt="imagen 2 mru">
+        
+        <form id="mru-form-2">
+            <section>
+                <h2>Cálculo de Tiempo: - Ejemplo 2</h2>
+                <form id="mru-form-2">
+                    <label for="mru-distancia-2">Distancia (m):</label>
+                    <input type="number" id="mru-distancia-2" required>
+                    
+                    <label for="mru-velocidad-2">Velocidad (m/s):</label>
+                    <input type="number" id="mru-velocidad-2" required>
+                    
+                    <button type="button" id="calcular-mru-2">Calcular</button>
+                    
+                    <p>Resultado : <span class="resultado" id="resultado-mru-2"></span> segundos</p>
+                </form>
+            </section>
+            <script src="./js/MRU2.js"></script>       
+        </form>
+    </section>
+
+    <section>
+        <h2>Tema 3</h2>
+        <H2>VELOCIDAD</H2>
+        <p>
+            La velocidad en MRU se refiere a la magnitud y dirección de movimiento constante de un objeto en línea recta. 
+            En MRU, la velocidad no cambia con el tiempo; es constante. Se mide en unidades de distancia por unidad de tiempo, 
+            como metros por segundo (m/s) o kilómetros por hora (km/h).
+
+        </p>
+        <img src="image/imagen3.png" alt="imagen 3 mru">
+        
+        <form id="mru-form-3">
+            <section>
+                <h2>Cálculo de Velocidad: - Ejemplo 3</h2>
+                <form id="mru-form-3">
+                    <label for="mru-velocidad-3">Velocidad (m/s):</label>
+                    <input type="number" id="mru-velocidad-3" required>
+                    
+                    <label for="mru-desplazamiento-3">Desplazamiento (m):</label>
+                    <input type="number" id="mru-desplazamiento-3" required>
+                    
+                    <button type="button" id="calcular-mru-3">Calcular</button>
+                    
+                    <p>Resultado : <span class="resultado" id="resultado-mru-3"></span> segundos</p>
+                </form>
+            </section>
+            <script src="./js/MRU3.js"> </script>
+
+        </form>
+    </section>
+    <section>
+        <h2>TEMA 4</h2>
+        <h2>Cálculo de Velocidad Inicial en MRUV</h2>
+        <p>
+            El cálculo de velocidad inicial en MRUV se refiere al proceso de determinar la velocidad 
+            con la que un objeto comenzó su movimiento uniformemente variado. Esto se logra utilizando 
+            la ecuación de MRUV adecuada, que involucra la velocidad final, la aceleración y el tiempo.
+        </p>
+        <img src="image/imagen4" alt="imagen 4 murv">
+        
+        <form id="mruv-form-1">
+            <section>
+                <h2>Cálculo de Velocidad Inicial Ejemplo: - 1</h2>
+                
+                <form id="mruv-form-1">
+                    <label for="mruv-aceleracion-1">Aceleración (m/s²):</label>
+                    <input type="number" id="mruv-aceleracion-1" required>
+                    
+                    <label for="mruv-tiempo-1">Tiempo (s):</label>
+                    <input type="number" id="mruv-tiempo-1" required>
+                    
+                    <label for="mruv-velocidad-final-1">Velocidad Final (m/s):</label>
+                    <input type="number" id="mruv-velocidad-final-1" required>
+                    
+                    <button type="button" id="calcular-mruv-1">Calcular</button>
+                    
+                    <p>Resultado : <span class="resultado" id="resultado-mruv-1"></span> m/s</p>
+                </form>
+            </section>
+            <script src="./js/MRUV1.js"> </script>
+            
+            
+            
+        </form>
+    </section>
+    <section>
+        <H2>TEMA 5</H2>
+        <h2>Determinación del Tiempo de Caída en MRUV</h2>
+        <p>
+
+            La determinación del tiempo de caída en MRUV se aplica comúnmente al estudio de objetos en caída libre debido a la gravedad. 
+            Se refiere al cálculo del tiempo que un objeto tarda en alcanzar el suelo desde una cierta altura, dado su movimiento uniformemente variado.
+
+        </p>
+        <img src="image/imagen5.jpeg" alt="imagen 5 mruv">
+        
+        <form id="mruv-form-2">
+            <section>
+                <h2>Determinación del Tiempo de Caída Ejemplo: - 2</h2>
+                
+                <form id="mruv-form-2">
+                    <label for="mruv-velocidad-inicial-2">Velocidad Inicial (m/s):</label>
+                    <input type="number" id="mruv-velocidad-inicial-2" required>
+                    
+                    <label for="mruv-aceleracion-2">Aceleración (m/s²):</label>
+                    <input type="number" id="mruv-aceleracion-2" required>
+                    
+                    <label for="mruv-altura-2">Altura (m):</label>
+                    <input type="number" id="mruv-altura-2" required>
+                    
+                    <button type="button" id="calcular-mruv-2">Calcular</button>
+                    
+                    <p>Resultado : <span class="resultado" id="resultado-mruv-2"></span> segundos</p>
+                </form>
+            </section>
+            <script src="./js/MRUV2.js"> </script>
+            
+        </form>
+    </section>
+    <section>
+        <h2>TEMA 6</h2>
+        <h2>Aceleración en MRUV</h2>
+        <p>
+            La aceleración en MRUV se refiere a la tasa de cambio de velocidad de un objeto en movimiento uniformemente variado. 
+            En MRUV, la aceleración es constante, lo que significa que la velocidad cambia en una cantidad uniforme en cada unidad de tiempo. 
+            Se mide en unidades de aceleración, como metros por segundo al cuadrado (m/s²).
+        </p>
+        <img src="image/imagen6.png" alt="imagen 6 mruv">
+        
+        <form id="mruv-form-3">
+            <section>
+                <h2>Calcular Aceleración en MRUV</h2>
+                <form id="mruv-form-aceleracion">
+                
+                
+                <label for="mruv-velocidad-inicial">Velocidad Inicial (m/s):</label>
+                <input type="number" id="mruv-velocidad-inicial" required>
+                
+                <label for="mruv-velocidad-final">Velocidad Final (m/s):</label>
+                <input type="number" id="mruv-velocidad-final" required>
+                
+                <label for="mruv-tiempo">Tiempo (s):</label>
+                <input type="number" id="mruv-tiempo" required>
+                
+                <button type="button" id="calcular-aceleracion">Calcular Aceleración</button>
+                
+                <p>Resultado: <span class="resultado" id="resultado-aceleracion"></span> m/s²</p>
+                </form>
+            </section>    
+            
+            <script src="./js/MRUV3.js"> </script>
+            
+            
+            
+        </form>
+    </section>
+    <section>
+        <form id="descargarr">
+            <a href="https://drive.google.com/drive/folders/1ybLkHFn2COYSUYMQV2cZHgV4oqplyJcY?usp=sharing" download="">
+                DESCARGA DE RECURSOS
+
+            </a>
+
+        </form>
+    </section>
+    <footer>
+        <h1>Desarrollo Web</h1>
+        <h1>Elvis Diego Josué Quiejú Damián</h1>
+        <h1>Carné: 2290-18-8721</h1>
+        <h1>Catedrático: Ing. Heriberto Antonio Escobar Menéndez </h1>
+    </footer>
+</body>
+</html>
